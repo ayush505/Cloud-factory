@@ -1,0 +1,23 @@
+.biz-tender {
+  min-height: 100vh;
+}
+.biz-tender .header {
+  padding: 0;
+}
+
+.biz-tender .content {
+  background: #f1f2f5;
+  overflow-y: auto;
+  height: calc(100vh - 65px);
+}
+
+.biz-tender .content .biz-tender-content {
+  overflow-y: auto;
+  min-height: calc(100% - 56px);
+}
+
+.biz-tender .footer {
+  background: #000c17;
+  color: #f1f2f5;
+  padding: 0;
+}

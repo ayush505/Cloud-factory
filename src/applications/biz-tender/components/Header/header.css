@@ -1,0 +1,49 @@
+.biz-tender-header {
+  background-color: #000c17;
+  padding: 8px 24px;
+  height: 64px;
+}
+
+.biz-tender-header .ant-page-header-heading-left,
+.biz-tender-header .ant-page-header-heading-extra {
+  /* margin: 0px; */
+  margin-block: auto;
+}
+
+.biz-tender-header .ant-avatar {
+  width: 38.03px;
+  height: 48px;
+  border-radius: 0px;
+  margin-right: 0px;
+  background: #ffffff;
+}
+
+.biz-tender-header .ant-avatar img {
+  width: 110%;
+}
+
+.biz-tender-header .ant-page-header-heading-title {
+  color: #ffffff;
+  padding: 1px 10px;
+  border-right: 3px solid #ffffff;
+  margin-right: 0px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+.biz-tender-header .ant-page-header-heading-sub-title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  padding-left: 13px;
+  padding-right: 13px;
+  color: #7a8aac;
+  margin-right: 0px;
+}
+
+.header-icons {
+  color: #ffffff;
+  background-color: #000c17;
+  font-size: 20px;
+  margin: 0 7.5px;
+}
