@@ -1,0 +1,37 @@
+.insights .first_timeline_content {
+  /* border: 5px solid ; */
+  /* background: red; */
+  /* color: white; */
+  color: #1890ff;
+  display: inline-block;
+  margin-left: -25px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.insights .first_timeline .ant-timeline-item-head {
+  color: white;
+  border-color: white;
+}
+
+.insights .card-button button {
+  margin-right: 5px;
+}
+
+.insights_timeline .timeline-mail-icon {
+  border: 10px solid #1890ff;
+  background-color: #1890ff;
+  color: white;
+  border-radius: 50%;
+}
+
+.insights_timeline .timeline-clock-icon {
+  border: 10px solid #ccc;
+  background-color: #ccc;
+  color: white;
+  border-radius: 50%;
+}
+
+.insights_timeline .ant-timeline-item-content {
+  top: -20px;
+}

@@ -1,0 +1,41 @@
+.smart-factory {
+  background: #f1f2f5;
+}
+
+.smart-factory .smart-factory_header {
+  background-color: #fff;
+  padding: 0;
+}
+
+.smart-factory .smart-factory_content {
+  /* background: #F1F2F5; */
+  margin: 0 10px;
+  margin-bottom: 30px;
+  overflow-y: auto;
+}
+
+.smart-factory .smart-factory_footer {
+  padding: 0;
+}
+
+.smart-factory .smart-factory_left-side-menu .ant-menu {
+  /* background: #F1F2F5;
+    color: #000C17; */
+}
+
+.smart-factory .smart-factory_left-side-menu .ant-menu-item {
+  /* background: #F1F2F5;
+    color: #000C17; */
+}
+
+.smart-factory .smart-factory_left-side-menu .ant-menu-item .nav-text {
+  font-weight: 600;
+}
+
+.smart-factory .smart-factory_left-side-menu .ant-menu-item-selected .nav-text {
+  font-weight: 1000;
+}
+
+.smart-factory .smart-factory_left-side-menu .ant-menu-item-selected::after {
+  border: 0;
+}
