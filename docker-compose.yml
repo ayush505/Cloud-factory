@@ -1,0 +1,36 @@
+version: "3"
+
+services:
+  marketplace:
+    build: .
+    security_opt:
+      - "no-new-privileges"
+    restart: "unless-stopped"
+    environment:
+      - SPRING_PROFILES_ACTIVE=$SPRING_PROFILES_ACTIVE
+      - DOMAIN:$DOMAIN
+      - APP_DOMAIN:$APP_DOMAIN
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.marketplace_${NEW}.rule=HostRegexp(`marketplace.qa{subdomain:[1-9]+}.indopus.in`, `marketplace.bizongo.com`, `marketplace.demo.bizongo.in`)"
+      - "traefik.port=3000"
+    networks:
+    - default
+
+    deploy:
+      resources:
+        limits:
+          cpus: '0.1'
+          memory: 1500M
+    cap_add:
+      - ALL
+    cap_drop:
+      - NET_ADMIN
+      - SYS_ADMIN
+
+networks:
+  default:
+    external:
+      name: gateway
+
+

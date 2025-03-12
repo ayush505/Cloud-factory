@@ -1,0 +1,79 @@
+{
+  "name": "seller-services-marketplace",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/charts": "^1.4.2",
+    "@ant-design/icons": "^4.7.0",
+    "@ant-design/plots": "^1.2.1",
+    "@smartpaddle/biz-bamboo-v2.ui.card.card": "^2.1.3",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "antd": "^4.21.5",
+    "antd-country-phone-input": "^4.3.3",
+    "date-fns": "^2.28.0",
+    "dotenv": "^16.0.1",
+    "file-saver": "^2.0.5",
+    "history": "^4.10.1",
+    "html-react-parser": "^3.0.1",
+    "jszip": "^3.10.1",
+    "lodash": "^4.17.21",
+    "prop-types": "^15.8.1",
+    "query-string": "^7.1.1",
+    "react": "^18.2.0",
+    "react-app-polyfill": "^3.0.0",
+    "react-dom": "^18.2.0",
+    "react-infinite-scroll-component": "^6.1.0",
+    "react-redux": "^8.0.2",
+    "react-router-dom": "^5.3.3",
+    "react-scripts": "5.0.1",
+    "react-toastify": "^9.0.5",
+    "redux": "^4.2.0",
+    "redux-thunk": "^2.4.1",
+    "rtsp-relay": "^1.6.1",
+    "styled-components": "^5.3.5",
+    "uuid": "^9.0.0",
+    "web-vitals": "^2.1.4",
+    "world_countries_lists": "^2.6.0"
+  },
+  "scripts": {
+    "start": "GENERATE_SOURCEMAP=false react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix",
+    "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^8.19.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.30.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^2.7.1",
+    "redux-devtools-extension": "^2.13.9"
+  }
+}
