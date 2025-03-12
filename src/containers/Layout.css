@@ -1,0 +1,21 @@
+.market-place {
+  height: 100vh;
+  background: inherit;
+}
+.market-place .header {
+  padding: 0;
+  height: 60px;
+}
+.market-place .market-place-container {
+  min-height: calc(100vh - 60px);
+  overflow-y: auto;
+}
+.market-place .market-place-container .market-place-content,
+.market-place .login-page-content,
+.market-place .signup-page-content {
+  min-height: calc(100vh - 116px);
+}
+
+.market-place .footer {
+  padding: 0;
+}

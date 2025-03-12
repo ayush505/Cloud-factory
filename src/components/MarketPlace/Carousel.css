@@ -1,0 +1,57 @@
+.ant-carousel {
+  height: 100px;
+}
+
+@media (min-width: 576px) {
+  .ant-carousel {
+    height: 120px;
+  }
+}
+@media (min-width: 768px) {
+  .ant-carousel {
+    height: 140px;
+  }
+}
+
+@media (min-width: 992px) {
+  .ant-carousel {
+    height: 140px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .ant-carousel {
+    height: 180px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .ant-carousel {
+    height: 220px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .ant-carousel {
+    height: 240px;
+  }
+}
+
+@media (min-width: 1900px) {
+  .ant-carousel {
+    height: 280px;
+  }
+}
+
+.ant-carousel .slick-slider,
+.ant-carousel .slick-list,
+.ant-carousel .slick-track,
+.ant-carousel .slick-slide,
+.ant-carousel div {
+  height: 100%;
+}
+
+.ant-carousel img {
+  height: 100%;
+  object-fit: contain;
+}

@@ -1,0 +1,31 @@
+.market-place-header {
+  background: #ffffff;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.08);
+  height: 60px;
+  padding: 12px 40px;
+}
+.market-place-header .ant-page-header-heading-left,
+.market-place-header .ant-page-header-heading-extra {
+  margin: 0px;
+}
+.market-place-header .ant-avatar {
+  width: 24px;
+  height: 37px;
+  border-radius: 0px;
+  margin-right: 10px;
+}
+.market-place-header .ant-page-header-heading-title {
+  color: #0065ca;
+  padding: 1px 10px;
+  border-right: 3px solid #0065ca;
+  margin-right: 0px;
+}
+.market-place-header .ant-page-header-heading-sub-title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  padding-left: 13px;
+  padding-right: 13px;
+  color: #7a8aac;
+  margin-right: 0px;
+}
